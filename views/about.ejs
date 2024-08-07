@@ -1,0 +1,79 @@
+<%- include('layout/header') %>
+<style>
+    body {
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+h2,h3 {
+    color: #f8f9fa;
+    border: 2px solid red; 
+    border-radius: 5px; 
+    background-color: hsl(206, 18%, 92%);
+    padding: 10px; /* Add padding for better visibility */
+}
+
+.content h2, .content h3 {
+  color: #343a40;
+}
+
+.content p, .content ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+</style>
+<div class="container">
+    <h1 class="mt-5 text-center">About Us</h1>
+    <div class="content mt-3">
+        <h2>Welcome to People Management System</h2>
+        <p>
+            Our User Management System is designed to streamline and simplify the process of managing users within your organization. Whether you're a small business or a large enterprise, our system provides a robust solution to handle all your user management needs.
+        </p>
+        <h3>Features</h3>
+        <ul>
+            <li><strong>User Registration:</strong> Easily register new users with all necessary details including first name, last name, email, phone number, and profile picture.</li>
+            <li><strong>User Listing:</strong> View a comprehensive list of all registered users in a tabular format with options to update or delete user information.</li>
+            <li><strong>Update User:</strong> Modify existing user details with ease and ensure your user data is always up to date.</li>
+            <li><strong>Delete User:</strong> Remove users from the system securely and efficiently.</li>
+            <li><strong>Responsive Design:</strong> Access and manage users from any device with our fully responsive design.</li>
+        </ul>
+        <h3>Benefits</h3>
+        <p>
+            By using our User Management System, you can:
+        </p>
+        <ul>
+            <li>Improve efficiency in user management tasks.</li>
+            <li>Ensure data accuracy and consistency.</li>
+            <li>Enhance security by managing user access and permissions effectively.</li>
+            <li>Save time and reduce administrative overhead.</li>
+        </ul>
+        <h3>Get in Touch</h3>
+        <p>
+            If you have any questions or need further assistance, feel free to contact our support team at <a href="mailto:support@usermanagement.com">support@usermanagement.com</a>.
+        </p>
+        <p>
+            Thank you for choosing our User Management System!
+        </p>
+    </div>
+</div>
+<%- include('layout/footer') %>

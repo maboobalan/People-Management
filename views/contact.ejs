@@ -1,0 +1,67 @@
+
+
+<%- include('layout/header') %>
+<style>
+    body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Contact Us</h1>
+        <p class="text-center">If you have any questions, feel free to reach out to us!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><strong>Name</strong></label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label"><strong>Email</strong></label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label"><strong>Subject</strong></label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label"><strong>Messae</strong></label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include('layout/footer') %>
